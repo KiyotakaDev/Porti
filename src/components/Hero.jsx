@@ -27,10 +27,10 @@ function Hero() {
         <div
           className={`absolute top-1/2`}
         >
-          <img src={log} alt="Image" className="h-52 w-52 sm:w-64 xs:h-64" />
+          <img src={log} alt="Image" className="h-52 w-52 sm:w-64 sm:h-64" />
         </div>
 
-      <div className="absolute bottom-10 w-full xl:flex justify-center items-center hidden">
+      <div className="absolute bottom-10 w-full xlg:flex justify-center items-center hidden">
         <a href="#about">
           <div className="w-9 h-16 rounded-3xl border-4 border-blacky-200 flex justify-center items-center p-2">
             <motion.div
