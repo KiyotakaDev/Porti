@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { log } from "../assets";
-import { Link } from "react-router-dom";
 
 function Hero() {
   return (
@@ -28,12 +27,12 @@ function Hero() {
         <div
           className={`absolute top-1/2`}
         >
-          <img src={log} alt="Image" className="w-44 h-44 xs:w-80 xs:h-80" />
+          <img src={log} alt="Image" className="h-52 w-52 sm:w-64 xs:h-64" />
         </div>
 
-      <div className="absolute bottom-10 w-full flex justify-center items-center">
+      <div className="absolute bottom-10 w-full xl:flex justify-center items-center hidden">
         <a href="#about">
-          <div className="w-9 h-16 rounded-3xl border-4 border-blacky-200 flex justify-center items-start p-2">
+          <div className="w-9 h-16 rounded-3xl border-4 border-blacky-200 flex justify-center items-center p-2">
             <motion.div
               animate={{
                 y: [0, 24, 0],
